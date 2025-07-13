@@ -30,4 +30,4 @@ jobs:
     - run: npm run build --if-present
     - run: |
         touch .env
-        echo "${{ secret.PROD_NODE_ENV}}"
+        echo "${{ secret.NEW_NODE_ENV}}"
